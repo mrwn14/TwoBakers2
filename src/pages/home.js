@@ -18,7 +18,7 @@ function Home() {
                     Enjoy our baked goodies from anywhere <br/>and your tongue will thank us soon.
                 </p>
             </div>
-            <button onClick={() => navigate("/TwoBakers/Recipes")} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mt-5 px-4 rounded-full hover:scale-105 transition ease-in-out">
+            <button onClick={() => navigate("/TwoBakers2/Recipes")} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mt-5 px-4 rounded-full hover:scale-105 transition ease-in-out">
                 EXPLORE
             </button>
                 

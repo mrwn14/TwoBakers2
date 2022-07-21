@@ -28,25 +28,25 @@ function Navbar() {
                 <div className={"lg:flex flex-grow items-center" + (expand ? " flex" : " hidden")}>
                     <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                         <li className="nav-item justify-center">
-                            <a className="px-3 py-2 flex items-center text-lg text-black hover:opacity-50 cursor-pointer" onClick={() => navigate("/TwoBakers")}>
+                            <a className="px-3 py-2 flex items-center text-lg text-black hover:opacity-50 cursor-pointer" onClick={() => navigate("/TwoBakers2")}>
                                 <span className="ml-2">HOME</span>
                             </a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="px-3 py-2 flex items-center text-lg text-black hover:opacity-50 cursor-pointer" onClick={() => navigate("/TwoBakers/Recipes")}>
+                            <a className="px-3 py-2 flex items-center text-lg text-black hover:opacity-50 cursor-pointer" onClick={() => navigate("/TwoBakers2/Recipes")}>
                                 <span className="ml-2">RECIPES</span>
                             </a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="px-3 py-2 flex items-center text-lg text-black hover:opacity-50 cursor-pointer" onClick={() => navigate("/TwoBakers/About")}>
+                            <a className="px-3 py-2 flex items-center text-lg text-black hover:opacity-50 cursor-pointer" onClick={() => navigate("/TwoBakers2/About")}>
                                 <span className="ml-2">ABOUT</span>
                             </a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="px-3 py-2 flex items-center text-lg text-black hover:opacity-50 cursor-pointer" onClick={() => navigate("/TwoBakers/Contact")}>
+                            <a className="px-3 py-2 flex items-center text-lg text-black hover:opacity-50 cursor-pointer" onClick={() => navigate("/TwoBakers2/Contact")}>
                                 <span className="ml-2">CONTACT</span>
                             </a>
                         </li>

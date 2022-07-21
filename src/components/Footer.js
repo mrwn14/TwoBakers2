@@ -31,7 +31,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a onClick={() => navigate("/TwoBakers/About/#top")} class="hover:underline cursor-pointer">
+                <a onClick={() => navigate("/TwoBakers2/About/#top")} class="hover:underline cursor-pointer">
                   About
                 </a>
               </li>
